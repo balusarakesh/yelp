@@ -1,1 +1,1 @@
-# yelp
+This project helps to collect data from Yelp website and store it in your database. The data consists of Restaurants, Coffes stores, etc., and also it can collect ratings from all of the places in Yelp.
