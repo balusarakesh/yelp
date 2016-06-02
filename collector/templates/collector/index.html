@@ -1,0 +1,14 @@
+<html>
+<body>
+<form action="{% url 'collector:collect' %}" method='post' enctype="multipart/form-data">
+{% csrf_token %}
+Places: <input type="text" name="places" value=""><br>
+Provide the list of places you want to collect data from like "Restaurants", "Coffee", "Grocery Stores"<br>
+separate each of the place by a comma<br><br>
+Locations: <input type="text" name="locations"  ><br>
+Provide the list of locations or cities from where you want to collect the places data from like "San Jose", "San Francisco"<br>
+separate each of the locations by a comma<br><br>
+<input type="submit" value="Start" />
+</form>
+</body>
+</html>
